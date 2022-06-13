@@ -7,3 +7,19 @@ b-La página de DESARROLLO tiene de background el color amarillo.
 c-La página de MASTER tiene de background el color blue (hicimos merge de TESTING).
 d-El favicon en MASTER es el que agregó BETA.
 
+e-Tanto BETA como GAMMA, no pudieron hacer el push ya que la misma consola mostraba un error, el cual era que
+para subir los cambios primero deberian traerse los cambios remotos del repositorio, por ejemplo con un git pull,
+y ahi si poder subir los cambios.
+f-ALFA presentó el siguiente problema:"al intentar hacer pull al branch TESTING, surgio un error en la consola, 
+pidiendo hacer un commit para hacer un merge, al cerrarla y volver a abrirla ese problema no ocurrió, edité archivo html, 
+lo añadí y lo pushié sin problemas".
+g-La solución que encontramos es previo a cada push, realizar un "git pull origin <branch>" para traer los cambios
+remotos, hacer el cambio que queramos, y ahi si pushear para que estos conflictos no existan. Como consecuencia,
+deberia haber una perfecta comunicacion entre los usuarios para realizar los cambios en el orden deseado por todos.
+Otra solucion, como marca el punto h es realizar un "push -f", y la consecuencia esta explicada abajo.
+h- La consecuencia de realizar un "push -f" es que como pushea de manera forzada, este push -f va a pisar los cambios
+del ultimo push, como ocurre en este ejemplo ya que cada <p> es pisado por quien realice el push -f. En este caso, 
+el ultimo push -f fue el de GAMMA, por eso aparecen sus datos.
+
+ 
+
