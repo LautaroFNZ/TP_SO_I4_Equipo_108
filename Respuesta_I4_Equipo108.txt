@@ -20,6 +20,7 @@ Otra solucion, como marca el punto h es realizar un "push -f", y la consecuencia
 h- La consecuencia de realizar un "push -f" es que como pushea de manera forzada, este push -f va a pisar los cambios
 del ultimo push, como ocurre en este ejemplo ya que cada <p> es pisado por quien realice el push -f. En este caso, 
 el ultimo push -f fue el de GAMMA, por eso aparecen sus datos.
-
+i-La solucion que encontramos, es la planteada en el punto g, ya que incluso la misma consola la plantea al realizar un 
+push sin antes haber hecho un git pull de la rama.
  
 
