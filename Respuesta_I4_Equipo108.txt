@@ -1,0 +1,9 @@
+Fernandez Lautaro Nicolas 
+Leandro Sebastian Avalos
+Franco Sampietro
+
+a-La página de TESTING tiene de background el color blue. 
+b-La página de DESARROLLO tiene de background el color amarillo.
+c-La página de MASTER tiene de background el color blue (hicimos merge de TESTING).
+d-El favicon en MASTER es el que agregó BETA.
+
